@@ -1,7 +1,7 @@
 //simulador de electrónica básica v1.0
 let salida = "";
 do {
-    //aqui copio el bloque switch?
+    //aqui copio el bloque switch
     let opcion = prompt("Seleccione una de las siguientes opciones:\n \n 1 - Para calcular Ley de Ohm, escriba 1\n \n 2 - Para calcular serie de resistores, escriba 2\n \n 3 - Para calcular paralelo de resistores, escriba 3 \n")
     switch (opcion) {
         //primer caso: ley de Ohm, permite calcular intensidades de corriente, voltaje o resistencias en un circuito electrónico.Su formula es I= V/R 
